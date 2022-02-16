@@ -19,10 +19,8 @@ def getvoices(voice):
     voices = engine.getProperty('voices')
     if voice == 1:
         engine.setProperty('voice',voices[0].id)
-        # speak('Hellow this is jarvis')
     if voice == 2:
         engine.setProperty('voice',voices[1].id)
-        # speak('Hellow this is Friday')    
 
 
 def time():  
